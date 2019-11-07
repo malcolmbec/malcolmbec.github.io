@@ -24,25 +24,6 @@
   margin: auto;
 }
 
-#intro {
-  background-color: #3B436A;
-  border-radius: 0px !important;
-  padding: 20px !important;
-  color: #ffffff;
-}
-
-#intro > .panel {
-  background-color: #3B436A;
-  margin-bottom: 0px !important;
-  margin: auto;
-  width: 50%;
-}
-
-#intro > .panel > h4 small {
-  color: #ffffff !important;
-  opacity: 0.75;
-}
-
 .projects > .carousel-inner {
   background-color: black;
 }
