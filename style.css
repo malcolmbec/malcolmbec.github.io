@@ -24,21 +24,21 @@
   margin: auto;
 }
 
-#quickintro > .jumbotron {
+#intro {
   background-color: #3B436A;
   border-radius: 0px !important;
   padding: 20px !important;
   color: #ffffff;
 }
 
-#quickintro > .jumbotron > .panel {
+#intro > .panel {
   background-color: #3B436A;
   margin-bottom: 0px !important;
   margin: auto;
   width: 50%;
 }
 
-#quickintro > .jumbotron > .panel > h4 small {
+#intro > .panel > h4 small {
   color: #ffffff;
   opacity: 0.75;
 }
