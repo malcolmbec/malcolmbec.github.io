@@ -115,16 +115,3 @@
  font-size: 25px;
  color: white;
 }
-
-#about-me {
-  min-width: 60%;
-}
-
-#about-me > .panel {
-  margin-top: 25px;
-}
-
-#about-me > .panel > .panel-heading {
-  max-width: 80%;
-  margin: auto;
-}
