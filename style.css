@@ -40,7 +40,7 @@
 
 #intro > .panel > h4 small {
   color: #ffffff;
-  opacity: 0.75;
+  opacity: 0.7;
 }
 
 .projects > .carousel-inner {
@@ -61,6 +61,18 @@
 .project-title {
   margin-top: 10px !important;
   font-weight: bold;
+  color: #6EBF3E;
+}
+
+.btn-navy {
+  background-color: #3B436A;
+  color: #fff;
+}
+
+.btn-navy:hover {
+  background-color: #454f7d;
+  border-color: #3B436A;
+  color: #ffffff;
 }
 
 .contact-bar > .fa {
@@ -74,7 +86,7 @@
 }
 
 .contact-bar > .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .contact-bar > .fa-envelope {
