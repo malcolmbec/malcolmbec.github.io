@@ -136,6 +136,9 @@
   #intro > .panel {
     width: 90%;
   }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -146,6 +149,9 @@
   #intro > .panel {
     width: 70%;
   }
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -155,5 +161,8 @@
   }
   #intro > .panel {
     width: 70%;
+  }
+  .navbar .navbar-collapse {
+    text-align: center;
   }
 }
