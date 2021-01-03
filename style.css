@@ -1,4 +1,5 @@
-/* Theme: #ACB1B4; #6EBF3E; #3B436A; #464646; #050505*/
+/* Theme: #ACB1B4; #3B436A; #464646; #050505*/
+/* Accent Colors: #6EBF3E; #8B0D4C */
 
 .navbar {
   border-radius: 0px !important;
@@ -57,7 +58,7 @@
 .project-title {
   margin-top: 10px !important;
   font-weight: bold;
-  color: #6EBF3E;
+  color: #8B0D4C;
 }
 
 .btn-navy {
