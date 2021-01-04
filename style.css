@@ -55,6 +55,12 @@
   margin: auto;
 }
 
+video {
+  vertical-align: middle !important;
+  display: block !important;
+  margin: auto;
+}
+
 .project-title {
   margin-top: 10px !important;
   font-weight: bold;
