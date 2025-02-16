@@ -1,34 +1,57 @@
-/* Theme: #ACB1B4; #3B436A; #464646; #050505*/
-/* Accent Colors: #6EBF3E; #8B0D4C */
+/*
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+*/
 
+/* Color Themes */
+:root {
+  --bg-color: #406a3b;
+  --bg-highlight: #4e8349;
+  --bdr-color: #464646;
+  --acc-color-1: #6A4E3B;
+  --acc-color-2: #0B539A;
+  --acc-color-3: #8B0D4C;
+}
+
+.contact-bar {
+  --em-color: #d44638;
+  --ln-color: #007bb5;
+  --twt-color: #1da1f2;
+  --bsky-color: #1185FE;
+}
+
+/* Navigation */
 .navbar {
+  background-color: var(--bg-color);
   border-radius: 0px !important;
   margin-bottom: 0px !important
 }
 
 .navbar-brand {
   padding: 0px !important;
+  margin: auto;
 }
 
+/* Portfolio */
 .card {
-  border-color: #464646;
+  border-color: var(--bdr-color);
   border-radius: 25px;
   overflow: hidden;
 }
 
 #intro {
-  background-color: #3B436A;
+  background-color: var(--bg-color);
   border-radius: 0px !important;
   padding: 20px !important;
   padding-top: 10px !important;
-  color: #ffffff;
+  color: white;
 }
 
 #intro > .panel {
-  background-color: #3B436A;
+  background-color: var(--bg-color);
   margin-bottom: 0px !important;
   margin: auto;
   width: 80%;
+  -webkit-box-shadow: 0 0px 0px rgba(0,0,0,.05);
 }
 
 #intro > .panel > h3 {
@@ -36,7 +59,7 @@
 }
 
 #intro > .panel > h3 small {
-  color: #ffffff;
+  color: white;
   opacity: 0.7;
 }
 
@@ -61,23 +84,28 @@ video {
   margin: auto;
 }
 
+h4 {
+  font-size: 16px;
+}
+
 .project-title {
   margin-top: 10px !important;
   font-weight: bold;
-  color: #8B0D4C;
+  color: var(--acc-color-3);
 }
 
 .btn-navy {
-  background-color: #3B436A;
-  color: #fff;
+  background-color: var(--bg-color);
+  color: white;
 }
 
 .btn-navy:hover {
-  background-color: #454f7d;
-  border-color: #3B436A;
-  color: #ffffff;
+  background-color: var(--bg-highlight);
+  border-color: var(--bg-color);
+  color: white;
 }
 
+/* Contacts */
 .contact-bar > .fa {
   padding: 20px;
   font-size: 30px;
@@ -93,44 +121,26 @@ video {
 }
 
 .contact-bar > .fa-envelope {
-  background: #d44638;
-  color: #eeeeee;
+  background: var(--em-color);
+  color: white;
 }
 
 .contact-bar > .fa-linkedin {
-  background: #007bb5;
+  background: var(--ln-color);
   color: white;
 }
 
 .contact-bar > .fa-twitter {
-    background: #1da1f2;
+    background: var(--twt-color);
     color: white;
 }
 
-#timeline {
-  min-width: 45%;
+.contact-bar > .fa-bluesky {
+    background: var(--bsky-color);
+    color: white;
 }
 
-#timeline > .fa {
-  font-size: 25px;
-  color: white;
-}
-
-#timeline > .panel {
-  border-color: #ACB1B4;
-  margin-top: 25px;
-}
-
-#timeline > .panel > .panel-heading {
- background-color: #1da1f2 !important;
- color: #1da1f2 !important;
-}
-
-#timeline > .panel > .panel-heading > .panel-title {
- font-size: 25px;
- color: white;
-}
-
+/* Aspect Ratios */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   #featured > .carousel-inner > .item {
