@@ -84,14 +84,10 @@
   margin: auto;
 }
 
-video {
+.projects > .carousel-inner > .item > video {
   vertical-align: middle !important;
   display: block !important;
   margin: auto;
-}
-
-h4 {
-  font-size: 16px;
 }
 
 .project-title {
@@ -109,6 +105,16 @@ h4 {
   background-color: var(--bg-highlight);
   border-color: var(--bg-color);
   color: white;
+}
+
+/* About */
+#bio {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#bio > h4 {
+  font-size: 18px;
 }
 
 /* Contacts */
