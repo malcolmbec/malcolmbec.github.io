@@ -63,18 +63,24 @@
   opacity: 0.7;
 }
 
+.projects > .carousel-indicators{
+  bottom: 0px;
+}
+
 .projects > .carousel-inner {
+  height: 100%;
   background-color: black;
 }
 
 .projects > .carousel-inner > .item {
-  max-height: 300px;
+  height: 85%;
+  top: 5%;
+  bottom: 10%;
 }
 
 .projects > .carousel-inner > .item > img {
-  max-height: inherit;
-  object-fit: cover;
-  width: !important;
+  height: 100%;
+  object-fit: contain;
   margin: auto;
 }
 
@@ -143,9 +149,6 @@ h4 {
 /* Aspect Ratios */
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-  #featured > .carousel-inner > .item {
-    width: 100%;
-  }
   #intro > .panel {
     width: 90%;
   }
@@ -156,9 +159,6 @@ h4 {
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-  #featured > .carousel-inner > .item {
-    width: 80%;
-  }
   #intro > .panel {
     width: 70%;
   }
@@ -169,9 +169,6 @@ h4 {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
-  #featured > .carousel-inner > .item {
-    width: 65%;
-  }
   #intro > .panel {
     width: 70%;
   }
