@@ -77,6 +77,7 @@
 
 .projects > .carousel-inner > .item > img {
   height: 100%;
+  width: 90%;
   object-fit: contain;
   margin: auto;
 }
@@ -89,8 +90,16 @@
 
 .project-title {
   margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-size: 24px;
   font-weight: bold;
   color: var(--acc-color);
+}
+
+.project-role {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  font-size: 16px;
 }
 
 .btn-navy {
