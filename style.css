@@ -4,7 +4,7 @@
 
 /* Color Themes */
 :root {
-  --bg-color: #153B78; 
+  --bg-color: #153B78;
   --bg-highlight: #1D50A3;
   --acc-color: #78153B;
 }
@@ -112,6 +112,12 @@
 
 #bio > h4 {
   font-size: 18px;
+}
+
+figcaption {
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
 }
 
 /* Contacts */
