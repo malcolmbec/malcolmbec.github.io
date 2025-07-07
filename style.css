@@ -4,12 +4,9 @@
 
 /* Color Themes */
 :root {
-  --bg-color: #406a3b;
-  --bg-highlight: #4e8349;
-  --bdr-color: #464646;
-  --acc-color-1: #6A4E3B;
-  --acc-color-2: #0B539A;
-  --acc-color-3: #8B0D4C;
+  --bg-color: #153B78; 
+  --bg-highlight: #1D50A3;
+  --acc-color: #78153B;
 }
 
 .contact-bar {
@@ -33,7 +30,7 @@
 
 /* Portfolio */
 .card {
-  border-color: var(--bdr-color);
+  border-color: var(--bg-color);
   border-radius: 25px;
   overflow: hidden;
 }
@@ -93,7 +90,7 @@
 .project-title {
   margin-top: 10px !important;
   font-weight: bold;
-  color: var(--acc-color-3);
+  color: var(--acc-color);
 }
 
 .btn-navy {
